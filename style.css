@@ -1,3 +1,8 @@
-*{
+* {
     font-family: "Poppins", sans-serif;
+}
+
+.nav-link.active {
+    color: blue;
+    font-weight: bold;
 }
