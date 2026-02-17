@@ -25,7 +25,7 @@
 
 <body>
     <header class="sticky top-0 z-50 bg-base-100 shadow">
-        <div class="navbar px-0 bg-base-100 w-full lg:w-8/12 mx-auto">
+        <div class="navbar lg:px-0 bg-base-100 w-full lg:w-8/12 mx-auto">
             <div class="navbar-start">
                 <a class="font-bold text-xl text-blue-700">SwiftCart</a>
             </div>
@@ -77,18 +77,76 @@
                 </div>
             </div>
     </header>
-    <main class="w-8/12 mx-auto mt-6">
-        <section id="home" class="page-section">
-            
+    <main class="">
+        <section id="home" class="page-section bg-blue-50 pb-12">
+            <div>
+                <div class="hero min-h-[90svh] lg:min-h-[70svh] "
+                    style="background-image: linear-gradient(to left,rgba(0,0,0,0.1),rgba(0,0,0,0.7)),url(./assets/banner-image.png);">
+                    <div class="hero-overlay"></div>
+                    <div class="w-11/12 lg:w-8/12 text-neutral-content">
+                        <div class="w-full lg:w-2/3">
+                            <h1 class="mb-5 text-3xl lg:text-5xl font-bold">Best Collection For You</h1>
+                            <p class="mb-5 text-lg font-medium">
+                                Discover the best products at unbeatable prices. Shop now and experience the ultimate
+                                shopping spree with us!
+                            </p>
+                            <button class="btn btn-primary">Shop Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="my-12 w-11/12 lg:w-8/12 mx-auto text-center ">
+                <h1 class="text-3xl font-bold text-black">Why Choose Us</h1>
+                <p class="my-2 text-[#00000080]">We provide the best shopping experience with top notch services.</p>
+                <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 mt-10 gap-10">
+                    <div class="card card-dash bg-base-100  relative pt-3">
+                        <div class="card-body text-start p-4 w-fit h-fit">
+                            <div class="border-2 border-white bg-blue-50 text-blue-800 shadow-md rounded-md flex items-center justify-center w-10 h-10 absolute -top-6">
+                                <i class="fa-regular fa-truck "></i>
+                            </div>
+                            <h2 class="font-bold">Fast Delivery</h2>
+                            <p class="text-xs text-[#00000080]">Get your orders delivered to your doorstep quickly and efficiently.</p>
+                        </div>
+                    </div>
+                    <div class="card card-dash bg-base-100  relative pt-3">
+                        <div class="card-body text-start p-4 w-fit h-fit">
+                            <div class="border-2 border-white bg-blue-50 text-blue-800 shadow-md rounded-md flex items-center justify-center w-10 h-10 absolute -top-6">
+                                <i class="fa-solid fa-headphones"></i>
+                            </div>
+                            <h2 class="font-bold">24/7 Support</h2>
+                            <p class="text-xs text-[#00000080]">Our support team is available around the clock to assist you.</p>
+                        </div>
+                    </div>
+                    <div class="card card-dash bg-base-100  relative pt-3">
+                        <div class="card-body text-start p-4 w-fit h-fit">
+                            <div class="border-2 border-white bg-blue-50 text-blue-800 shadow-md rounded-md flex items-center justify-center w-10 h-10 absolute -top-6">
+                                <i class="fa-solid fa-shield-halved"></i>
+                            </div>
+                            <h2 class="font-bold">Secure Payment</h2>
+                            <p class="text-xs text-[#00000080]">Experience safe and secure transactions with our encrypted systems.</p>
+                        </div>
+                    </div>
+                    <div class="card card-dash bg-base-100  relative pt-3">
+                        <div class="card-body text-start p-4 w-fit h-fit">
+                            <div class="border-2 border-white bg-blue-50 text-blue-800 shadow-md rounded-md flex items-center justify-center w-10 h-10 absolute -top-6">
+                                <i class="fa-solid fa-repeat"></i>
+                            </div>
+                            <h2 class="font-bold">Easy Returns</h2>
+                            <p class="text-xs text-[#00000080]">Not satisfied? Return your products easily within 30 days.</p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
         </section>
         <section id="product" class="page-section hidden">
-            
+
         </section>
         <section id="about" class="page-section hidden">
-            
+
         </section>
         <section id="contact" class="page-section hidden">
-            
+
         </section>
     </main>
 
