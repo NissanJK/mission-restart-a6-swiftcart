@@ -6,3 +6,8 @@
     color: blue;
     font-weight: bold;
 }
+
+.active-category{
+    background-color: blue;
+    color: white;
+}
